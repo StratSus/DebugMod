@@ -326,7 +326,6 @@ namespace DebugMod
 
             PlayerData.instance.hasXunFlower = false; // prevent breaking flower
             PlayerData.instance.health = data.savedPd.health;
-            PlayerData.instance.joniHealthBlue = data.savedPd.joniHealthBlue;
             PlayerData.instance.healthBlue = 0;
             HeroController.instance.proxyFSM.SendEvent("HeroCtrl-Healed");
             HeroController.instance.proxyFSM.SendEvent("HeroCtrl-HeroDamaged");
